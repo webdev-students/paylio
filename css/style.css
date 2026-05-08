@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8fafc;
+}
+
+h1 {
+  color: #46609d;
+}
+p {
+  font-size: 18px;
+}
+header {
+  height: 10vh;
+}
+nav a {
+  text-decoration: none;
+}
+/* ul > li {
+
+} */
+.menu:hover {
+  color: orangered;
+  border-bottom: 2px solid orangered;
+}
+
+input[type='email'] {
+  background: transparent;
+  border: 0.4px solid white;
+  border-radius: 8px;
+}
+.hero {
+  background-color: #0f172a;
+  color: white;
+  padding: 40px;
+}
+.about {
+  background-color: #dbeafe;
+}
+.services {
+  background-color: #f1f5f9;
+}
+footer {
+  background-color: #1e293b;
+  color: white;
+  padding: 20px;
+}
+
+/* STYLES FOR WORK PAGE */
+.tech li:first-child {
+  color: blue;
+}
+.tech li:last-child {
+  color: blueviolet;
+}
+.tech li:nth-child(3) {
+  color: red;
+}
+
+.courses {
+  background: #ccc;
+}
+.courses li:nth-child(odd) {
+  background: pink;
+  color: rgb(193, 0, 32);
+}
+.courses li:nth-child(even) {
+  background: rgb(117, 117, 171);
+  color: rgb(27, 27, 91);
+}
+.courses p::first-letter {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.btn {
+  background: blue;
+  color: #fff;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn::before {
+  content: '-';
+}
+.btn::after {
+  content: '-';
+}
+
+/* STYLES FOR THE HOMEPAGE */
+.hero-home,
+.hero-home div {
+  height: 90vh;
+}
+.hero-home {
+  background-image: url('assets/images/developer.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+.hero-home div {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 40px;
+}
+
+/* STYLES FOR ABOUT US PAGE */
+.hero-about {
+  height: 90vh;
+  padding: 40px;
+  color: white;
+  /* background: linear-gradient(to top, orangered, greenyellow); */
+  /* background: radial-gradient(circle at center, orangered, greenyellow); */
+  background:
+    linear-gradient(to left, rgba(0, 0, 54, 0.582), rgba(0, 0, 0, 0.792)),
+    url(assets/images/developer-2.jpg) center/cover no-repeat;
+}
+
+/* STYLES FOR THE WORK PAGE */
+.tech-p {
+  font-family: 'Inter', sans-serif;
+  font-weight: light;
+  font-style: italic;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline solid red;
+  text-shadow: 2px 2px 4px black;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-spacing: 3px;
+}
