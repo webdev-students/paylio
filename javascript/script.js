@@ -1,23 +1,22 @@
-console.log('Welcome to Javascript');
-console.log(1 + 1);
+// Variables and data types
+// string
+const name = 'John';
+let msg = "Welcome - let's do great work!";
+const level = `beginner`;
+const update = `Name: ${name}. Level: ${level}`;
 
-// variables
-// const
-const name = 'John Doe';
-const role = 'DevOps Engineer';
+// number
+let num1 = 11;
+
+// Boolean - either true or false
+let isLoggedIn = true;
 
 console.log(name);
+console.log(msg);
+console.log(num1);
+console.log(update);
 
-// concatenation
-console.log(name + ' is a ' + role);
+console.log('Hello ' + name + ' ' + msg); //old way of concatenating
+console.log(`Hello ${name}, Your level is: ${level}`);
 
-let age = 18;
-age = 20;
-console.log(age);
-
-var lang = 'French';
-console.log(lang);
-
-let xNum = 3;
-let yNum = 4;
-console.log(xNum + yNum);
+console.log(typeof level);

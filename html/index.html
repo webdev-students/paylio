@@ -3,77 +3,136 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="icon" href="images/icon-image.png" />
+    <title>Intro to HTML</title>
+    <link rel="icon" href="images/icon.png" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
-    <header class="container">
-      <h2 class="logo">Logo</h2>
-      <nav>
-        <a href="index.html" class="nav-item">Home</a>
-        <a href="about.html" class="nav-item">About us</a>
-        <a href="main.html" class="nav-item">Dashboard</a>
-      </nav>
-    </header>
-    <section class="hero container">
-      <h2>Lens AI</h2>
-      <p>
-        Welcome to a new dispensation of AI Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Inventore impedit necessitatibus eligendi
-        voluptatum beatae totam hic libero fugit natus eaque pariatur corporis
-        quia unde, laborum error quasi, quo a voluptatibus placeat aut. Quis
-        necessitatibus accusantium laborum tempora at? Ullam repellendus
-        reprehenderit tempora explicabo, asperiores modi laudantium dolores sint
-        officia minus?
-      </p>
-      <button class="btn">Get started</button>
-    </section>
-    <section class="services container">
-      <div class="service-grid">
-        <div class="service-box">
-          <h2>Service-1 Header</h2>
-          <h3>Description</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-            deserunt.
-          </p>
-        </div>
-        <div class="service-box">
-          <h2>Service-2 Header</h2>
-          <h3>Description</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-            deserunt.
-          </p>
-        </div>
-        <div class="service-box">
-          <h2>Service-3 Header</h2>
-          <h3>Description</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-            deserunt.
-          </p>
-        </div>
-      </div>
-    </section>
+    <!-- Linking to a section on the same page -->
+    <a href="#proudctSection">View our products</a>
 
-    <section class="card-wrapper">
-      <div class="card card1">Content 1</div>
-      <div class="card card2">Content 2</div>
-      <div class="card card3">Content 3</div>
-      <div class="card card4">Content 4</div>
-      <div class="card card5">Content 5</div>
-      <div class="card card6">Content 6</div>
-      <div class="card card7">Content 7</div>
-      <div class="card card8">Content 8</div>
-      <div class="card card9">Content 9</div>
-    </section>
+    <!-- Heading tags -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- paragraphs -->
+    <p style="color: brown">This is a paragraph</p>
+    <p class="p1">This is another paragraph</p>
+    <strong>THIS is a bold text</strong>
+    <em>Italicised</em>
+    <u>Underlined text</u>
+    <mark title="Click me">Highlighted</mark>
+    <small>small text</small>
+
+    <!-- links and images -->
+    <!-- Linking to an external webpage -->
+    <a href="https://www.google.com" target="_blank">Go to Google</a>
+
+    <br />
+
+    <!-- Linking to another page on our website -->
+    <a href="about.html">Learn more about us</a>
+    <a href="contact.html">Send us a message</a>
+
+    <br />
+
+    <a href="mailto:youremail@gmail.com">Send us an email</a>
+    <br />
+    <!-- images -->
+    <img
+      src="images/programmer.jpg"
+      alt="Programmer"
+      width="400"
+      height="280"
+    />
+    <h1 id="proudctSection">Our Products</h1>
+    <p class="p2">
+      <span>This text is separated</span> &nbsp; &nbsp; Lorem ipsum dolor sit
+      amet consectetur adipisicing elit. Perspiciatis dolor dolores animi harum
+      dolore dolorem totam mollitia commodi, quasi doloribus maiores maxime,
+      blanditiis, optio nisi. Veritatis velit cupiditate consequuntur excepturi
+      perferendis, inventore incidunt voluptatem non illo animi magnam! Sint
+      voluptate autem quis reiciendis facilis, tempore inventore corporis
+      exercitationem minima? Amet delectus iure eligendi? Quaerat rerum
+      veritatis ipsa ea cum inventore. Animi corporis omnis eligendi, explicabo
+      nihil illum vitae ad a nobis minus inventore error nemo cumque accusamus
+      doloremque veniam, qui incidunt debitis ex, delectus numquam. Minus
+      obcaecati nisi assumenda delectus provident et suscipit adipisci quasi,
+      dicta cupiditate architecto, tenetur saepe?
+    </p>
+    <!-- lists -->
+    <!-- Unordered list -->
+    <ul>
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+      <li>List 4</li>
+    </ul>
+
+    <!-- Ordered list -->
+    <ol>
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+      <li>List 4</li>
+    </ol>
+
+    <!-- Tables -->
+    <table border="2">
+      <thead>
+        <tr>
+          <th>S/N</th>
+          <th>Name</th>
+          <th>Course</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>John Doe</td>
+          <td>Machine Learning (ML)</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Chris</td>
+          <td>Artificial Intelligence</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+
+    <!-- forms -->
+    <form action="">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Type your full name"
+        autocomplete="off"
+      />
+
+      <br />
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" />
+
+      <br />
+
+      <label for="pwd">Password:</label>
+      <input type="password" name="password" id="pwd" />
+    </form>
+
+    <!-- semantic html -->
+    <header></header>
+    <section></section>
+    <article></article>
+    <main></main>
+    <nav></nav>
+    <footer>&copy; copyright reserved</footer>
   </body>
 </html>

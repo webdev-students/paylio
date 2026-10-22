@@ -3,11 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Intro to JavaScript</title>
+    <title>Document</title>
   </head>
   <body>
-    <h1>JavaScript Intro</h1>
-
-    <script src="script-2.js"></script>
+    <form action="">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Type your full name"
+      />
+      <br />
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">Male</label>
+      <br />
+      <label for="country">Country:</label>
+      <select name="country" id="country">
+        <option value="" disabled selected>Select your country</option>
+        <option value="ng">Nigeria</option>
+        <option value="us">United States</option>
+      </select>
+    </form>
   </body>
 </html>
