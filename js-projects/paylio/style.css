@@ -1,0 +1,150 @@
+:root {
+  --primary-color: black;
+  --secondary-color: #222;
+  --text-color: #434343;
+  --border-color: #ccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: 'inter';
+}
+body > * {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+header {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.flex-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.flex-vertical-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.flex-vertical-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo-section img {
+  width: 30px;
+}
+.logo-section h1 {
+  font-size: 22px;
+}
+header nav {
+  display: flex;
+  gap: 15px;
+}
+nav a {
+  color: var(--text-color);
+}
+nav a:hover {
+  color: var(--primary-color);
+}
+.btn {
+  border-radius: 20px;
+  padding: 0.4rem 0.8rem;
+  color: var(--primary-color);
+}
+.btn:hover {
+  color: var(--border-color);
+}
+.btn-primary {
+  background: var(--primary-color);
+  color: white;
+}
+.btn-secondary {
+  border: 1px solid var(--border-color);
+}
+.btn-secondary:hover {
+  color: var(--border-color);
+}
+.hero .container {
+  min-height: 80vh;
+  gap: 20px;
+}
+.info {
+  border: 1px solid var(--border-color);
+  padding: 8px;
+  border-radius: 20px;
+}
+.hero .info h5 {
+  color: var(--text-color);
+}
+.hero .container h1 {
+  font-weight: 500;
+  font-size: 2.7rem;
+}
+.hero .container p {
+  max-width: 56%;
+  text-align: center;
+  font-size: 17px;
+}
+.menu-open {
+  display: none;
+}
+.menu-close,
+.menu-section {
+  display: none;
+}
+
+/* Mobile Screen */
+@media (max-width: 500px) {
+  body > * {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header .container nav {
+    display: none;
+  }
+  .hero .container h1 {
+    font-size: 1.5rem;
+  }
+  .hero .container p {
+    max-width: 80%;
+    font-size: 16px;
+  }
+  .menu-section {
+    display: none;
+    min-height: 100vh;
+  }
+  .menu-open {
+    display: flex;
+  }
+  .menu-section nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 40px;
+  }
+  .menu-section nav a {
+    font-size: 30px;
+  }
+}
