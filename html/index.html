@@ -3,86 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Intro to HTML</title>
-    <link rel="icon" href="images/icon.png" />
-    <link rel="stylesheet" href="style.css" />
+    <title>HTML</title>
+    <link rel="icon" href="images/technology.png" />
+    <style>
+      p {
+        color: blue;
+      }
+      .heading {
+        color: red;
+      }
+      #heading3 {
+        color: pink;
+      }
+    </style>
   </head>
   <body>
-    <!-- Linking to a section on the same page -->
-    <a href="#proudctSection">View our products</a>
-
-    <!-- Heading tags -->
-    <h1>Heading 1</h1>
+    <!-- Headings -->
+    <h1>Heading &nbsp; 1</h1>
+    <h2 class="heading">Heading 2</h2>
     <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
+    <h2>Heading 2</h2>
+    <h2>Heading 2</h2>
+    <h3 id="heading3">Heading 3</h3>
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
 
-    <!-- paragraphs -->
-    <p style="color: brown">This is a paragraph</p>
-    <p class="p1">This is another paragraph</p>
-    <strong>THIS is a bold text</strong>
-    <em>Italicised</em>
-    <u>Underlined text</u>
-    <mark title="Click me">Highlighted</mark>
+    <!-- text formatting -->
+    <p>This is a paragraph</p>
+    <p style="color: brown; background-color: skyblue">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero odit ut
+      assumenda obcaecati amet tempora a cum enim veniam repellendus.
+    </p>
+    <strong>Bold text</strong>
+    <em>italics</em>
     <small>small text</small>
+    <mark>Highlighted</mark>
 
     <!-- links and images -->
-    <!-- Linking to an external webpage -->
+    <!-- Link to an external website -->
     <a href="https://www.google.com" target="_blank">Go to Google</a>
 
-    <br />
-
-    <!-- Linking to another page on our website -->
-    <a href="about.html">Learn more about us</a>
-    <a href="contact.html">Send us a message</a>
+    <!-- Link to another page on the website -->
+    <a href="about.html" title="Learn more about us">About us</a>
 
     <br />
+    <!-- Link to another section on the same page -->
+    <a href="#services">Learn about our services</a>
 
-    <a href="mailto:youremail@gmail.com">Send us an email</a>
-    <br />
-    <!-- images -->
-    <img
-      src="images/programmer.jpg"
-      alt="Programmer"
-      width="400"
-      height="280"
-    />
-    <h1 id="proudctSection">Our Products</h1>
-    <p class="p2">
-      <span>This text is separated</span> &nbsp; &nbsp; Lorem ipsum dolor sit
-      amet consectetur adipisicing elit. Perspiciatis dolor dolores animi harum
-      dolore dolorem totam mollitia commodi, quasi doloribus maiores maxime,
-      blanditiis, optio nisi. Veritatis velit cupiditate consequuntur excepturi
-      perferendis, inventore incidunt voluptatem non illo animi magnam! Sint
-      voluptate autem quis reiciendis facilis, tempore inventore corporis
-      exercitationem minima? Amet delectus iure eligendi? Quaerat rerum
-      veritatis ipsa ea cum inventore. Animi corporis omnis eligendi, explicabo
-      nihil illum vitae ad a nobis minus inventore error nemo cumque accusamus
-      doloremque veniam, qui incidunt debitis ex, delectus numquam. Minus
-      obcaecati nisi assumenda delectus provident et suscipit adipisci quasi,
-      dicta cupiditate architecto, tenetur saepe?
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. A modi nam nemo,
+      dolorem nisi ipsa quam optio quod necessitatibus. Incidunt tenetur
+      distinctio quas recusandae perferendis impedit delectus ipsa similique hic
+      vero iusto placeat, animi voluptatibus accusamus. Numquam sapiente totam
+      atque, pariatur officiis corporis perspiciatis cum ratione consequatur rem
+      labore tenetur tempore reiciendis natus aliquid maiores explicabo mollitia
+      minus odio et expedita vel autem! Tenetur veniam voluptates dolorum
+      consequatur. Consequuntur aperiam numquam dolor, architecto quas
+      cupiditate iste consequatur officia nihil officiis voluptatum tempora quod
+      cum, incidunt laboriosam necessitatibus cumque similique itaque culpa?
+      Eius nobis tempore dolor dignissimos tempora similique culpa officiis amet
+      ut! Modi molestias ullam illo assumenda ducimus, doloremque iste?
+      Consectetur, obcaecati sunt. Maiores, ad in, ratione sit, velit amet
+      similique pariatur fugiat enim facilis maxime quaerat sint aliquam
+      repellat laboriosam rerum vitae quam deleniti iusto porro incidunt eum
+      sequi suscipit eveniet? Provident sint, nemo, accusantium suscipit
+      expedita odio deserunt molestiae autem perferendis illum debitis quae
+      officia earum? Nobis necessitatibus unde doloremque sit accusantium
+      voluptates eius aut eligendi minima magni nostrum velit hic repudiandae
+      tempora et omnis non maxime, aspernatur itaque maiores. Ducimus molestiae
+      quasi ut repellendus laborum, impedit, dignissimos est earum autem, sequi
+      nisi sit labore. Est, in totam.
     </p>
-    <!-- lists -->
-    <!-- Unordered list -->
+
+    <h2 id="services">Our Services</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <!-- How to add an image -->
+    <img src="images/tech.jpg" alt="image" width="500" height="400" />
+
+    <!-- HTML Lists -->
+    <!-- ul - unordered list 
+      ol - ordered list -->
+
     <ul>
-      <li>List 1</li>
-      <li>List 2</li>
-      <li>List 3</li>
-      <li>List 4</li>
+      <li>List1</li>
+      <li>List2</li>
+      <li>List3</li>
     </ul>
 
-    <!-- Ordered list -->
     <ol>
-      <li>List 1</li>
-      <li>List 2</li>
-      <li>List 3</li>
-      <li>List 4</li>
+      <li>List1</li>
+      <li>List2</li>
+      <li>List3</li>
     </ol>
 
     <!-- Tables -->
-    <table border="2">
+    <table>
       <thead>
         <tr>
           <th>S/N</th>
@@ -92,47 +109,73 @@
       </thead>
       <tbody>
         <tr>
-          <td>1.</td>
+          <td>1</td>
           <td>John Doe</td>
-          <td>Machine Learning (ML)</td>
+          <td>Machine Learning</td>
         </tr>
         <tr>
-          <td>2.</td>
-          <td>Chris</td>
-          <td>Artificial Intelligence</td>
+          <td>2</td>
+          <td>Chris Tim</td>
+          <td>Computer Science</td>
         </tr>
       </tbody>
     </table>
-    <br />
 
     <!-- forms -->
     <form action="">
-      <label for="name">Name:</label>
+      <label for="name">Full name:</label>
       <input
         type="text"
-        name="name"
         id="name"
-        placeholder="Type your full name"
+        placeholder="Type your name"
         autocomplete="off"
       />
 
       <br />
-
-      <label for="email">Email:</label>
+      <label for="email">Email Address:</label>
       <input type="email" name="email" id="email" />
 
       <br />
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" />
 
-      <label for="pwd">Password:</label>
-      <input type="password" name="password" id="pwd" />
+      <br />
+      <label for="country">Country:</label>
+      <select name="country" id="country">
+        <option value="" selected disabled>select your country</option>
+        <option value="ng">Nigeria</option>
+        <option value="usa">United States</option>
+        <option value="uk">United Kingdom</option>
+      </select>
+
+      <br />
+      <!-- textarea -->
+      <label for="msg">Review:</label>
+      <textarea name="msg" id="msg" rows="3" cols="20"></textarea>
+
+      <br />
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label>
+
+      <br />
+      <input type="checkbox" name="terms" id="terms" />
+      <label for="terms">Accept our terms and conditions</label>
+
+      <br />
+      <button type="submit">Submit</button>
     </form>
 
-    <!-- semantic html -->
     <header></header>
+    <nav></nav>
+    <main></main>
     <section></section>
     <article></article>
-    <main></main>
-    <nav></nav>
-    <footer>&copy; copyright reserved</footer>
+    <aside></aside>
+    <footer>
+      <h5>&copy; All Rights Reserved</h5>
+    </footer>
+    <div></div>
   </body>
 </html>

@@ -199,13 +199,15 @@ nav a:hover {
   gap: 30px;
   padding: 100px;
 }
-.features-top-a {
+.features-top-a,
+.faq-top-a {
   max-width: fit-content;
   padding: 0.1rem 0.4rem;
   border: 1px solid rgb(240, 240, 240);
   border-radius: 20px;
 }
-.features-top-a h5 {
+.features-top-a h5,
+.faq-left-top h5 {
   font-size: 13px;
   font-weight: 400;
 }
@@ -282,6 +284,9 @@ nav a:hover {
 }
 .features-list {
   display: flex;
+}
+.faq-top-b p {
+  max-width: 400px;
 }
 /* Mobile Screen */
 @media (max-width: 500px) {
