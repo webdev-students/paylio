@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+.header-wrapper {
+  min-height: 50vh;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: url('images/corporate-team.jpg');
+  background-position: top;
+  background-size: cover;
+}
+.header-wrapper > * {
+  color: white;
+}
+header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.overlay {
+  background: linear-gradient(
+    135deg,
+    rgba(57, 91, 104, 0.669),
+    rgba(64, 101, 116, 0.621),
+    rgba(107, 138, 62, 0.623)
+  );
+}
+header h2 {
+  font-style: italic;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: large;
+}
+header h2 span {
+  font-style: normal;
+  font-weight: bold;
+}
+header nav {
+  display: flex;
+  gap: 10px;
+}
+.nav-item {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: small;
+  color: white;
+}
+.hero {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 12rem;
+  gap: 10px;
+}
+.hero h1 {
+  text-transform: uppercase;
+}
+.hero p {
+  max-width: 400px;
+}
